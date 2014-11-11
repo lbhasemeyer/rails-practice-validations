@@ -2,7 +2,7 @@ require 'rails_helper'
 
 feature 'Organization' do
 
-  scenario 'Organization Validations' do
+  scenario 'Create organization fields cannot be blank' do
     visit root_path
     click_on "Organizations"
     click_on "New Organization"

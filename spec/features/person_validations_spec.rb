@@ -2,7 +2,7 @@ require 'rails_helper'
 
 feature 'Person' do
 
-  scenario 'Person Validations' do
+  scenario 'Create person fields cannot be blank' do
     visit root_path
     click_on "People"
     click_on "New Person"
